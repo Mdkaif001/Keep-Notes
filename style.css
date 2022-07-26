@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.heading {
+  padding-left: 10px;
+  height: 10vh;
+  background-color: rgb(227, 180, 77);
+  display: flex;
+  align-items: center;
+}
+.heading i {
+  font-size: 29px;
+  margin-right: 15px;
+}
+.btn1 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.btn1 .button1 {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 8px;
+  outline: 1px solid black;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn1 .button1:hover {
+  background-color: rgba(236, 204, 135, 0.237);
+  color: black;
+  outline: 1px solid black;
+}
+.row{
+    display: flex;
+   
+}
+.note {
+  margin-left: 40px;
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  outline: 1px solid black;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+.opretion {
+  height: 20px;
+  display: flex;
+  justify-content: end;
+}
+.edit,
+.deleteE {
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  background-color: white;
+}
+.edit:hover {
+  
+  color: rgb(227, 180, 77);
+}
+.deleteE:hover {
+  color: rgb(227, 180, 77);
+}
+
+textarea {
+  height: 175px;
+  width: 279px;
+  outline: none;
+  border: none;
+ padding: 25px 10px;
+}
+.hidden{
+    display: none ;
+}
+.row{
+  display: flex;
+}
